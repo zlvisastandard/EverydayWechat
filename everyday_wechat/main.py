@@ -19,6 +19,8 @@ from everyday_wechat.utils.data_collection import (
     get_xzw_info
 )
 
+print("---")
+
 reply_userNames = []
 FILEHELPER_MARK = ['文件传输助手', 'filehelper']  # 文件传输助手标识
 FILEHELPER = 'filehelper'
@@ -81,6 +83,7 @@ def is_online(auto_login=False):
 
     print('登录失败。')
     return False
+
 
 
 def init_wechat():
